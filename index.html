@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- START -->
+    <div id="startScreen">
+      <h1>🎮 Quiz</h1>
+
+      <p>Masukkan nama</p>
+
+      <input type="text" id="playerName" placeholder="Nama lengkap...">
+
+      <button class="btn" onclick="showPopup()">
+        Mulai
+      </button>
+    </div>
+
+    <!-- QUIZ -->
+    <div class="question-box" id="quizBox">
+
+      <div class="top">
+  <div>
+    👤 <span class="player" id="showName"></span>
+  </div>
+
+  <div>
+    ⏳ <span id="timer">30:00</span>
+  </div>
+
+</div>
+
+      <div class="question" id="question"></div>
+
+      <div class="answers" id="answers"></div>
+
+<div class="navigation">
+
+  <button class="btn nav-button" onclick="prevQuestion()">
+    ⬅ Sebelumnya
+  </button>
+
+  <button class="btn nav-button" onclick="nextQuestion()">
+    Berikutnya ➜
+  </button>
+
+</div>
+
+<button class="btn finish-btn" onclick="finishGame()">
+  ✅ Selesai Quiz
+</button>
+
+    </div>
+
+    <!-- RESULT -->
+    <!-- RESULT -->
+<div class="result" id="resultBox">
+
+  <h1>🏆 Hasil Quiz</h1>
+
+  <div class="score">
+    ✅ Benar:
+    <span id="correct"></span>
+  </div>
+
+  <div class="score">
+    ❌ Salah:
+    <span id="wrong"></span>
+  </div>
+
+  <div class="score">
+    📊 Nilai:
+    <span id="score"></span>
+  </div>
+
+  <div class="score">
+    🎓 Status:
+    <span id="status"></span>
+  </div>
+
+  <button class="btn" onclick="location.reload()">
+    Main Lagi
+  </button>
+
+</div>
+  </div>
+
+  <!-- POPUP -->
+  <div class="popup" id="popup">
+
+    <div class="popup-content">
+
+      <h2>Quiz Akan Dimulai</h2>
+      <h4>pastikan kamu sudah menghafal materi,
+      jangan curang!!</h4>
+      <p>Apakah kamu siap?</p>
+
+      <div class="popup-buttons">
+
+        <button class="ready" onclick="startCountdown()">
+          Siap
+        </button>
+
+        <button class="not-ready" onclick="closePopup()">
+          Belum
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- COUNTDOWN -->
+  <div class="countdown" id="countdown">
+    3
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
