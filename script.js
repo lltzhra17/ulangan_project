@@ -300,6 +300,7 @@ answers:[
 correct:2
 },
 
+  ];
 
 let currentQuestion = 0;
 let answersUser = [];
