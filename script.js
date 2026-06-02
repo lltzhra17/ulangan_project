@@ -217,18 +217,6 @@ correct:1
 },
 
 {
-question:"Tag untuk membuat input teks adalah?",
-answers:[
-"<textbox>",
-"<text>",
-'<input type="text">',
-"<field>",
-"<inputtext>"
-],
-correct:2
-},
-
-{
 question:"Properti CSS untuk mengubah ukuran teks?",
 answers:[
 "text-size",
@@ -277,151 +265,6 @@ correct:3
 },
 
 {
-question:"Properti CSS untuk menggarisbawahi teks?",
-answers:[
-"text-line",
-"text-decoration",
-"underline",
-"font-decoration",
-"line-text"
-],
-correct:1
-},
-
-{
-question:"PHP merupakan bahasa pemrograman yang berjalan di?",
-answers:[
-"Database",
-"Browser",
-"Client",
-"Editor",
-"Server"
-],
-correct:4
-},
-
-{
-question:"Fungsi isset() pada PHP digunakan untuk?",
-answers:[
-"Menghapus variabel",
-"Mengecek variabel ada atau tidak",
-"Membuat variabel",
-"Menyimpan variabel",
-"Mengubah variabel"
-],
-correct:1
-},
-
-{
-question:"Operator penggabung string pada PHP adalah?",
-answers:[
-"+",
-"&",
-".",
-",",
-":"
-],
-correct:2
-},
-
-{
-question:"Tag untuk membuat list angka?",
-answers:[
-"<ul>",
-"<li>",
-"<ol>",
-"<list>",
-"<il>"
-],
-correct:2
-},
-
-{
-question:"CSS singkatan dari?",
-answers:[
-"Cascading Style Sheets",
-"Cascading Styling Sheets",
-"Creative Style Sheets",
-"Computer Style Sheets",
-"Cascading Style System"
-],
-correct:0
-},
-
-{
-question:"Tag untuk membuat tabel di HTML?",
-answers:[
-"<table>",
-"<tab>",
-"<tb>",
-"<tr>",
-"<datatable>"
-],
-correct:0
-},
-
-{
-question:"Property CSS untuk warna background?",
-answers:[
-"bgcolor",
-"background-color",
-"color",
-"bg-style",
-"background"
-],
-correct:1
-},
-
-{
-question:"Simbol komentar di CSS?",
-answers:[
-"// komentar",
-"<!-- komentar -->",
-"/* komentar */",
-"# komentar",
-"<comment>"
-],
-correct:2
-},
-
-{
-question:"Property CSS untuk memberi jarak dalam?",
-answers:[
-"margin",
-"spacing",
-"padding",
-"border-space",
-"inside-margin"
-],
-correct:2
-},
-
-{
-question:"Tag untuk membuat tombol?",
-answers:[
-"<btn>",
-"<click>",
-"<inputbutton>",
-"<press>",
-"<button>"
-],
-correct:4
-},
-
-{
-question:"Perintah untuk menampilkan informasi PHP adalah?",
-answers:[
-"php()",
-"showphp()",
-"phpinfo()",
-"infophp()",
-"info()"
-],
-correct:2
-},
-
-
-{
 question:"Tag untuk membuat garis horizontal?",
 answers:[
 "<line>",
@@ -432,19 +275,7 @@ answers:[
 ],
 correct:1
 },
-
-{
-question:"Property CSS untuk menebalkan teks?",
-answers:[
-"font-bold",
-"text-weight",
-"font-style",
-"font-weight",
-"text-bold"
-],
-correct:3
-},
-
+  
 {
 question:"Tag untuk membuat checkbox?",
 answers:[
@@ -468,32 +299,6 @@ answers:[
 ],
 correct:2
 },
-
-{
-question:"Properti CSS untuk rata tengah teks?",
-answers:[
-"text-center",
-"align-text",
-"text-align",
-"center-text",
-"font-align"
-],
-correct:2
-},
-
-{
-question:"Tag untuk membuat unordered list?",
-answers:[
-"<ol>",
-"<list>",
-"<ul>",
-"<li>",
-"<dl>"
-],
-correct:2
-}
-
-];
 
 
 let currentQuestion = 0;
